@@ -1,7 +1,7 @@
 { "dependencies": { "concurrently": "^8.2.1" },
 "scripts": {
   "dev": "concurrently \"cd frontend && bun run dev\" \"cd backend && cargo run\"",
-  "start": "concurrently \"cd frontend && bun start\" \"cd backend && cargo run --release\"",
+  "start": "concurrently \"cd frontend && bun run start\" \"cd backend && cargo run --release\"",
   "build": "concurrently \"cd frontend && bun run build\" \"cd backend && cargo build --release\""
 }
 
