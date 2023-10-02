@@ -1,0 +1,41 @@
+html body{
+  background-color: black;
+  color: white;
+}
+
+canvas {outline: none;width: 100vw !important; height: 100vh !important; display: block; }
+
+.main-box{
+  border: 5px solid pink;
+  width: 90%;
+  overflow-y: auto;
+  max-height: 400px;
+  padding: 15px;
+  border-radius: 0px !important;
+
+}
+
+.main-box::-webkit-scrollbar {
+    display: none;
+}
+
+.main-btn{
+  border-radius: 0px !important;
+  background-color: pink !important;
+  color: white !important;
+  font-size: 20px !important;
+  padding-top: 0 !important;
+  max-height: 45px;
+  display: inline-block;
+}
+
+input, select, textarea{
+    color: pink;
+}
+
+.main-input{
+  max-height: 45px;
+  border: 5px solid pink !important;
+
+  border-radius: 0px !important;
+}
