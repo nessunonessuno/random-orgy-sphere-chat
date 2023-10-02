@@ -1,1 +1,1 @@
-# random-orgy-sphere-chat
+Random chat app where messages are spheres and people can steal identity. Done on a drunk session in 2 hours just to fill my git and steal some ips, i guess

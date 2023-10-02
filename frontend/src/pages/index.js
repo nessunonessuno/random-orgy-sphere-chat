@@ -2,7 +2,8 @@ import { Container, Flex, Box, Button, Text, Input } from '@chakra-ui/react';
 import React, { useState, useEffect, useRef } from "react";
 import { Canvas, useFrame,useLoader} from "@react-three/fiber";
 import MessagesBackground from "src/components/MessagesBackground"
-const socket_url = "ws://192.168.1.5:1234/ws";
+
+const socket_url = "ws://localhost/ws";
 
 export default function Index() {
   const [socket, setSocket] = useState(null);
